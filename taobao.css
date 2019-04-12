@@ -369,3 +369,103 @@ html,body{
 	/*border: 1px solid #f40;*/
 	margin: 0 auto;
 }
+.wrapper .search-box .main{
+	float: left;
+	width: 890px;
+	height: 632px;
+	border: 1px solid black;
+
+}
+.wrapper .search-box .main .main-inner{
+	width: 890px;
+	height: 522px;
+	border: 1px solid black;
+}
+.wrapper .search-box .main .main-inner .inner-left{
+	float: left;
+	width: 190px;
+	height: 522px;
+	border: 1px solid #f40;
+	background-color: #FFF;
+}
+.wrapper .search-box .main .main-inner .inner-left ul li {
+	float: left;
+	position: relative;
+	overflow: hidden;
+    line-height: 32px;
+    height: 32px;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 145px;
+    color: #666;
+}
+.wrapper .search-box .main .main-inner .inner-left ul li:hover{
+	color: #ff5000;
+	background-color:#ffe4dc; 
+}
+.wrapper .search-box .main .main-inner .inner-left ul li:hover a{
+	color: #ff5000; 
+}
+.wrapper .search-box .main .main-inner .inner-left ul li a{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 32px;
+    height: 32px;
+	color: #666;          
+} 
+.wrapper .search-box .main .main-inner .inner-left ul li span{
+	position: absolute;
+	display: inline-block;
+	width: 10px;
+	height: 15px;
+	right: 1px;
+	top: 10px;
+	background-image: url(./img/youjiantou.png);
+	background-size: 100% 100%;
+	/*border: 1px solid black;*/
+}
+.wrapper .search-box .main .main-inner .inner-left ul li:hover span{
+	background-image: url(./img/youjiantou-seleced.png);
+}
+.wrapper .search-box .main .main-inner .inner-content{
+	float: left;
+	width: 520px;
+	height: 522px;
+	border: 1px solid purple;
+}
+.wrapper .search-box .main .main-inner .inner-content .pic-box{
+	padding: 8px;
+}
+.wrapper .search-box .main .main-inner .inner-content .inner-mall{
+	width: 520px;
+	height: 230px;
+	padding:0 8px;
+	border: 1px solid red;
+}
+.wrapper .search-box .main .main-inner .inner-content .inner-mall a{
+	display: inline-block;
+	width: 200px;
+	height: 100%;
+}
+.wrapper .search-box .main .main-inner .inner-content .inner-mall .tm{
+	font-size: 12px;
+	color: #666;
+}
+.wrapper .search-box .main .main-inner .inner-right{
+	float: left;
+	width: 110px;
+	height: 522px;
+	border: 1px solid orange;
+}
+.wrapper .search-box .main .main-bottom{
+	width: 890px;
+	height: 100px;
+	border: 1px solid pink;
+}
+/*右侧部分*/
+.wrapper .search-box .col-right{
+	float: left;
+	width: 290px;
+	height: 632px;
+	border: 1px solid green;
+}
