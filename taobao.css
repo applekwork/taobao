@@ -125,7 +125,7 @@ html,body{
 	width: 1190px;
 	height: 88px;
 	margin: 0 auto;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 .wrapper .search-wrap .logo-box{
 	/*position: relative;*/
@@ -147,18 +147,17 @@ html,body{
 	display: inline-block;
 	width: 627px;
 	height: 87px;
-	border: 1px solid #000;
 	vertical-align: top;
+	/*border: 1px solid #000;*/
 }
 .wrapper .search-wrap .search-box .search-top{
 	width: 627px;
 	height: 62px;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 .wrapper .search-wrap .search-box .search-top .search-tab{
 	height: 22px;
 	margin-left: 17px;
-
 }
 .wrapper .search-wrap .search-box .search-top .search-tab ul li{
 	float: left;
@@ -186,7 +185,7 @@ html,body{
 	position: relative;
 	width: 627px;
 	height: 40px;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 }
 .wrapper .search-wrap .search-box .search-top .search-panle form{
 
@@ -194,64 +193,126 @@ html,body{
 .wrapper .search-wrap .search-box .search-top .search-panle .btn{
 	width: 74px;
 	height: 40px;
-	border: 1px solid red;
 	position: absolute;
 	top: 0;
 	right: 0;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.wrapper .search-wrap .search-box .search-top .search-panle .btn button{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+	border: none;
+	/*去掉btn默认的border*/
+	background:linear-gradient(to right,#ff9000,#ff9000,#ff5000 100%);
 }
 .wrapper .search-wrap .search-box .search-top .search-panle .search-input-box{
+	/*position: relative;*/
 	width: 551px;
 	height:36px;
-	border: 1px solid green;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	overflow: hidden;
+	border: 2px solid #ff9000; 
 }
-
-
-
-
-
-
-
-
-.wrapper .search-wrap .search-box .search-bottom{
+.wrapper .search-wrap .search-box .search-top .search-panle  .sousuo,
+.wrapper .search-wrap .search-box .search-top .search-panle  .camera
+{
+	display: inline-block;
+	position: absolute;
+}
+.wrapper .search-wrap .search-box .search-top .search-panle .sousuo{
+	width: 12px;
+	height: 14px;
+	top: 14px;
+	left: 14px;
+	background-image:url(./img/sousuo.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.wrapper .search-wrap .search-box .search-top .search-panle .camera{
+	width: 20px;
+	height: 22px;
+	top: 10px;
+	right: 90px;
+	background-image:url(./img/xiangji.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.wrapper .search-wrap .search-box .search-top .search-panle .search-input{
+	height: 36px;
+	width: 472px;
+}
+.wrapper .search-wrap .search-box .search-top .search-panle .search-input input{
+	height: 24px;
+	width: 472px;
+	padding: 6px 16px;
+	border: none;
+	outline: 0;
+	text-indent: 10px;
+}
+.wrapper .search-wrap .search-box .search-bl{
 	width: 627px;
 	height: 20px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
+}
+.wrapper .search-wrap .search-box .search-bl a{
+	font-size: 12px;
+	color: #3C3C3C;
+	margin-right: 6px;
+}
+.wrapper .search-wrap .search-box .search-bl a.active{
+	color: #ff5000;
+}
+.wrapper .search-wrap .search-box .search-bl a:hover{
+	color: #ff5000;
 }
 .wrapper .search-wrap .code-box{
+	position: relative;
 	display: inline-block;
-	width: 76px;
-	height: 96px;
-	border: 1px solid #000;
+	width: 80px; 
+	height: 80px;
+	margin-left: 20px;
 	vertical-align: top;
 	/*基于上基准线对齐*/
+	border: 1px solid #eee;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.wrapper .search-wrap .code-box .phone{
+	color: #ff5000;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	margin-left: 10px;
+}
+.wrapper .search-wrap .code-box .code{
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	background-repeat: no-repeat;
+	background-image: url(./img/download.png);
+	background-size: 100% 100%;
+	margin-left: 12px;
+}
+.wrapper .search-wrap .code-box .close{
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	left: -18px;
+	border: 1px solid #eee;
+	font-size: 3px;
+	font-weight: lighter;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+}
 /*导航条*/
-.wrapper .search-nav{
+.wrapper .search-nav-wrap{
 	width: 1190px;
 	height: 30px;
 	background-color: #f40;
@@ -261,6 +322,6 @@ html,body{
 .wrapper .search-box{
 	width: 1190px;
 	height: 632px;
-	border: 1px solid #f40;
+	/*border: 1px solid #f40;*/
 	margin: 0 auto;
 }
